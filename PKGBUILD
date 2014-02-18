@@ -1,6 +1,6 @@
 
 pkgname=tache
-pkgver=1.1
+pkgver=1.2
 pkgrel=1
 pkgdesc="A simple task manager in command line"
 arch=('x86_64')
@@ -9,7 +9,7 @@ license=('custom')
 depends=('java-environment')
 source=("https://github.com/bvaudour/tache/releases/download/v${pkgver}/${pkgname}-${arch}.tar.gz"
         "tache")
-md5sums=('ffe174bd2ea3e9ca7b4f8afe70a7bb29'
+md5sums=('a88b801e2a54d9bffab9ecf1f89f582f'
          '0a48b2a15f7a85b8ea826f38780b8ee3')
 
 package() {
